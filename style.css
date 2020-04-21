@@ -3,3 +3,152 @@ Theme Name: Webkas Demo Blog Theme
 Author: Webkas - Kamil Sztefko
 Author URI: https://kamilsztefko.pl
 */
+
+/* ========== my styles ================================================= */
+
+body.archive #mainNav.navbar a,
+body.search #mainNav.navbar a {
+  color: #212529;
+}
+body.archive #mainNav.navbar a:hover,
+body.search #mainNav.navbar a:hover {
+  color: #0085a1;
+}
+
+.single header.masthead .page-heading h1 {
+  font-size: 50px;
+}
+
+/* --- comments --- */
+
+.comments ul {
+  list-style-type: none;
+}
+
+.comments .comment-body {
+  border-bottom: 1px solid rgb(222, 226, 230);
+  margin: 30px 0;
+  padding-bottom: 10px;
+}
+
+.comments .comment-meta {
+  padding: 0;
+}
+
+.comments .comment-content {
+  margin: 10px 0 15px;
+}
+
+.comments .comment-content p {
+  margin: 0;
+}
+
+.comments .comment-reply-link {
+  display: inline-block;
+  text-decoration: none;
+  background: #17a2b8;
+  color: #fff;
+  padding: 8px 15px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+}
+.comments .comment-reply-link:hover {
+  background: #138496;
+}
+
+#commentform p:not(:first-child) {
+  display: flex;
+  flex-flow: column;
+}
+
+#commentform .comment-notes {
+  font-size: 1rem;
+}
+
+#commentform p.comment-form-cookies-consent {
+  flex-flow: row;
+}
+#commentform input#wp-comment-cookies-consent {
+  transform: scale(2);
+  margin: 6px 15px 0 7px;
+}
+#commentform .comment-form-cookies-consent label {
+  font-size: 1rem;
+}
+
+#commentform .form-submit {
+  align-items: center;
+}
+
+.comment-reply-title {
+  display: flex;
+  flex-flow: column;
+}
+
+#cancel-comment-reply-link {
+  margin-top: 15px;
+  padding: 8px 15px;
+}
+
+/* --- pagination --- */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 40px;
+}
+
+.pagination h2 {
+  position: absolute;
+  z-index: -1;
+  color: transparent;
+  background: transparent;
+}
+
+.pagination .prev {
+  margin-right: 20px;
+}
+.pagination .next {
+  margin-left: 20px;
+}
+
+.pagination .current {
+  padding: 1px 4px;
+  color: #eee;
+  background: #444;
+}
+
+#contactForm .submit-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* --- blog bottom sidebar --- */
+
+.blog-bottom-widget-search-3 {
+  margin-bottom: 30px;
+}
+
+.blog-bottom-widget-search-3 span {
+  display: inline-block;
+  margin: 0 10px 4px 0;
+}
+
+.blog-bottom-widget-search-3 .search-field {
+  margin: 0 20px 20px 0;
+  padding: 4px 8px;
+}
+
+.blog-bottom-widget-search-3 .search-submit {
+  padding: 8px 16px;
+}
+
+.blog-bottom-widget-archives-3 {
+  padding: 10px;
+}
+
+.blog-bottom-widget-tag_cloud-2 {
+  margin-bottom: 30px;
+  padding: 10px;
+}
